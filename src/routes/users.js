@@ -6,9 +6,9 @@ const router = express.Router();
 
 // In-memory data store for demonstration purposes
 let users = [
-  { id: 1, name: 'Alice Johnson', email: 'alice@example.com', role: 'admin' },
-  { id: 2, name: 'Bob Smith', email: 'bob@example.com', role: 'user' },
-  { id: 3, name: 'Carol White', email: 'carol@example.com', role: 'user' },
+  { id: 1, name: 'Alice Johnson', email: 'alice@example.com', role: 'admin', age: 20 },
+  { id: 2, name: 'Bob Smith', email: 'bob@example.com', role: 'user', age: 25 },
+  { id: 3, name: 'Carol White', email: 'carol@example.com', role: 'user', age: 30 },
 ];
 let nextId = 4;
 
